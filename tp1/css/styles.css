@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    min-width: 90vh;
+    width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caja{
+    width: 300px;
+    height: 550px;
+    /* border-left: 3px solid; */
+    /* border-top: 3px solid;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+    border-bottom: 3px solid; */
+}
+
+.navbar {
+    background-color: rgb(178, 214, 247);
+    width: 294px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.precio{
+    width: 294px;
+    height: 209px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/buzo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.descripcion{
+    width: 294px;
+    height: 190px;
+    background-color: rgb(178, 214, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.az{
+    width: 294px;
+    height: 160px;
+    background-color:   rgb(178, 214, 247);
+    justify-content: center;
+    display: flex;
+}
+
+.azz{
+    width: 280px;
+    height: 100px;
+
+}
+
+.navbajo{
+    background-color: white;
+    width: 294px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.boton{
+    width: 230px;
+    height: 40px;
+    background-color:  rgb(178, 214, 247);
+    border-left: 2px solid;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    border-radius: 20px;
+}
+
+.descrip{
+    width: 294px;
+    height: 30px;
+    background-color: rgb(178, 214, 247);
+    display: flex;
+    padding-left: 12px;
+}
+
+.bash{
+    width: 294px;
+    height: 30px;
+    background-color: rgb(178, 214, 247);
+}
+
+.letra1{
+    font-family: "Caveat", cursive;
+    font-size: 25px;
+}
+
+.dentro{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dentro2{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(209, 123, 123);
+    border: 3px solid #555; 
+
+     -webkit-transform: rotate(45deg) skew(15deg, 15deg);
+     -moz-transform: rotate(45deg) skew(15deg, 15deg);
+     -ms-transform: rotate(45deg) skew(15deg, 15deg);
+     -o-transform: rotate(45deg) skew(15deg, 15deg);
+     transform: rotate(45deg) skew(15deg, 15deg);
+}
+
+.logo2{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(216, 148, 148);
+    display: flex;
+    border: 3px solid #555; 
+    border-radius: 50%;
+}
+
+.contenedor-precio{
+    width: 250px;
+    height: 190px;
+}
+
+.puntos-colores{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.redondos{
+
+    width: 10px;
+    height: 20px;
+    background-color: rgb(121, 123, 221);
+    border-radius: 50%;
+    margin: 1%;
+}
+
+.redondos2{
+    width: 10px;
+    height: 20px;
+    background-color: rgb(76, 206, 119);
+    border-radius: 50%;
+    margin: 1%;
+}
+
+.redondos3{
+    width: 10px;
+    height: 20px;
+    background-color: rgb(231, 90, 196);
+    border-radius: 50%;
+    margin: 1%;
+}
+
+.redondos4{
+    width: 10px;
+    height: 20px;
+    background-color: rgb(111, 98, 228);
+    border-radius: 50%;
+    margin: 1%;
+}
+
+.remera{
+    width: 250px;
+    height: 109px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.trespuntos{
+    width: 250px;
+    height: 40px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.letra2{
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+
+}
+
+.letra3{
+    font-family: "Caveat", cursive;
+    font-size: 43px;
+  
+}
+
+.circulos{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(228, 189, 189);
+    margin: 1%;
+    border-radius: 50%;
+    border: 3px solid #555; 
+}
+
+body{
+    background-color: #3f3d3d;
+}
+
+.card-image{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    margin: 10%;
+}
