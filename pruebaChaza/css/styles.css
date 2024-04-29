@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.contenedor{
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(117, 86, 86);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.carta{
+    width: 400px;
+    height: 650px;
+    background-color: rgb(252, 252, 239);
+    border-radius: 5%;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 400px;
+    height: 190px;
+    background-color: aqua;   
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    background-image: url(../img/espacio.jpeg);
+    background-size: cover;
+
+    .persona{
+        top: 35%;
+        border-radius: 30%;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        display: flex;
+        background-color: rgb(223, 131, 11);
+        background-image: url(../img/persona.jpg);
+        background-size: cover;
+     
+    } 
+    
+    .linea{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        position: relative;
+        top: 5%;
+        width: 400px;
+        height: 10px;
+        background-color: gray;
+    }
+
+
+}
+
+
+
+.informacion{
+    width: 400px;
+    height: 350px;
+    background-color: rgb(65, 63, 63);
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    
+    .linea2{
+        
+        width: 400px;
+        height: 10px;
+        background-color: gray;
+    }
+
+    .nombre{
+        width: 400px;
+        height: 250px;
+        background-color: rgb(109, 106, 110);
+        display: flex;
+        justify-content: center;
+        align-items: end;
+
+
+        .info{
+            width: 300px;
+            height: 200px;
+            background-color:  rgb(109, 106, 110);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .ayuda{
+            width: 300px;
+            height: 90px;
+            background-color:  rgb(109, 106, 110);
+            display: flex;
+            align-items: end;
+        }
+    }
+    
+    .age{
+        width: 400px;
+        height: 100px;
+        background-color: rgb(109, 106, 110);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 18%;
+    }
+
+    .iq{
+        width: 60px;
+        height: 60px ;
+     
+        display: flex;
+        flex-direction: column;
+        
+        .numero{
+            width: 60px;
+            height: 30px ;
+       
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .abajo{
+            width: 60px;
+            height: 30px ;
+          
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+
+.letra{
+    font-family: "Karla", sans-serif;
+}
+
+
+footer{
+    width: 400px;
+    height: 110px;
+    background-color: rgb(145, 60, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/espacio.jpeg);
+    background-size: cover;
+
+    button{
+        background:#1AAB8A;
+        color:#fff;
+        border:none;
+        position:relative;
+        height:50px;
+        font-size:1.6em;
+        padding:0 2em;
+        cursor:pointer;
+        transition:800ms ease all;
+        outline:none;
+      }
+      button:hover{
+        background:#fff;
+        color:#1AAB8A;
+      }
+      button:before,button:after{
+        content:'';
+        position:absolute;
+        top:0;
+        right:0;
+        height:2px;
+        width:0;
+        background: #1AAB8A;
+        transition:400ms ease all;
+      }
+      button:after{
+        right:inherit;
+        top:inherit;
+        left:0;
+        bottom:0;
+      }
+      button:hover:before,button:hover:after{
+        width:100%;
+        transition:800ms ease all;
+      }
+}
+
+
