@@ -1,0 +1,51 @@
+[
+    {
+        "nombre": "Gabriela",
+        "description": "Bandeja de pancito",
+        "price": "5.50",
+        "image": "https://th.bing.com/th/id/OIP.xT7Z1IcYfCP6ifEnqLWD_QHaIJ?rs=1&pid=ImgDetMain",
+        "ingredients": "Meat, cheese, vegetables",
+        "opinion":"Asco de comida tio"
+    },
+    {
+        "nombre": "Luca",
+        "description": "Fideos con manteca",
+        "price": "5.50",
+        "image": "https://th.bing.com/th/id/R.42f7fd526cc94b557961a7d3f4d41994?rik=hDivNwvfJygXCA&pid=ImgRaw&r=0",
+        "ingredients": "Meat, cheese, vegetables",
+        "opinion":"los fideos estaban a una temperatura estable "
+    },
+    {
+        "nombre": "Maylen",
+        "description": "Asado con ensalada",
+        "price": "5.50",
+        "image": "https://flyclipart.com/thumbs/mujer-sonriendo-dovolnaya-devushka-1153985.png",
+        "ingredients": "Meat, cheese, vegetables",
+        "opinion":"Muy rico exelente servicios "
+    },
+    {
+        "nombre": "Facundo",
+        "description": "Ensalada con pollo",
+        "price": "5.50",
+        "image": "https://th.bing.com/th/id/OIP.cAgwGiE-mcYL3LPwaThQwgHaJC?rs=1&pid=ImgDetMain",
+        "ingredients": "Meat, cheese, vegetables",
+        "opinion":"falta aceite"
+    },
+   
+    {
+        "nombre": "Dante",
+        "description": "Ñoquis",
+        "price": "5.50",
+        "image": "https://www.pngmart.com/files/15/Smiling-Business-Man-Standing-PNG-Image.png",
+        "ingredients": "Meat, cheese, vegetables",
+        "opinion":"riquisima la comida "
+    },
+    {
+        "nombre": "Lucila",
+        "description": "Milanesa laponitana",
+        "price": "5.50",
+        "image": " https://www.kindpng.com/picc/m/449-4493194_persona-fotos-hd-png-download.png",
+        "ingredients": "Meat, cheese, vegetables",
+        "opinion":"Falta de personal "
+    }
+]
