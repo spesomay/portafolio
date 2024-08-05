@@ -4,16 +4,19 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-.sombra{
-    box-shadow: 0 0 10px -3px black;
-}
+
 body{
-    height: 100vh;
     width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/fondocafe.jpg);
+
 }
 
-.pl{
-    padding-left: 38px;
+.letra1{
+    font-family: "Playfair Display", serif;
+
 }
 
 img{
@@ -23,336 +26,74 @@ img{
     height: 100%;
 }
 
-
-.cuadrado{
-    height: 40px;
-    width: 40px;
-    border-radius: 100%;
+.cofe-img{
+    width: 100%;
+    height: 440px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 2px rgb(119, 117, 117);
-}
 
-header{
-    width: 100%;
-    height: 82px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 38px;
-    padding-right: 45px;
-
-
-    .largo{
-        height: 100px;
-        width: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .cualalo{
-        width: 100%;
-        height: 50px;
-        border-radius: 23px;
-        border: solid 2px black;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-}
-
-.imagen{
-    width: 100%;
-    height: 796px;
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
     .contenedor-img{
-        height: 226px;
-        width: 80%;
-        border-radius: 5%;
+        width: 302px;
+        height: 322px;
+        background-size: cover;
+        
     }
 }
 
 .contenedor{
-    height: 100%;
-    width: 80%;
-    
-
-    .titulo{
-        width: 100%;
-        height: 50px;
-        font-size: 27px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .nose{
-        width: 100%;
-        height: 50px;
-       
-        color: gray;
-        display: flex;
-        justify-content: space-between;
-    
-        .infor{
-            height: 100%;
-            width: 131px;
-           
-            display: flex;
-            flex-direction: column;
-    
-            .abajo{
-                width: 100%;
-                height: 50%;
-                color: black;
-                display: flex;
-                align-items: center;
-                gap: 5%;
-    
-                .iconos {
-                    font-family: 'Material Icons Outlined';
-                    font-weight: normal;
-                    font-style: normal;
-                    font-size: 10px; 
-                    line-height: 1;
-                    letter-spacing: normal;
-                    text-transform: none;
-                    display: inline-block;
-                    white-space: nowrap;
-                    word-wrap: normal;
-                    direction: ltr;
-                    --webkit-font-feature-settings: 'liga';
-                    --webkit-font-smoothing: antialiased;
-                  }
-            }
-        }
-    }
-    h5{
-        font-size: 16px;
-        color: aquamarine;
-    }
-    
-    .informacion{
-        width: 100%;
-        height: 100px;
-
-        display: flex;
-        align-items: center;
-    }
-
-    .lugares{
-        width: 100%;
-        height: 90px;
-  
-        overflow-x: scroll;
-        display: flex;
-        gap: 5%;
-
-        .imagee{
-            flex: 0 0 133px;
-            height: 87px;
-        
-            border-radius: 5%;
-        }
-    }
-    
-    .menu{
-        width: 100%;
-        height: 100%;
-
-
-        .title{
-            width: 100%;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            font-size: 26px;
-        }
-
-        .opciones{
-            width: 100%;
-            height: 60px;
-            gap: 5%;
-            overflow-x: scroll;
-            display: flex;
-        }
-
-        .precio{
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            gap: 3%;
-
-            .cualalo{
-                width: 100%;
-                height: 50px;
-                border-radius: 23px;
-                border: solid 2px black;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                padding-left: 5%;
-                
-
-                .cantidad{
-                    width: 115px;
-                    height: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 12%;
-                    color: black;
-                }
-
-                .cuadrado2,.iconos{
-                    height: 40px;
-                    width: 40px;
-                    border-radius: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    color: white;
-                    background-color: black;
-                }
-            }
-        }
-    }
-}
-
-
-.contenedor-cafe{
-    /* height: 896px; */
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .padre{
-        width: 80%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .recomendacion{
-        width: 100%;
-        height: 45px;
-   
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        gap: 2%;
-    }
+    height: 410px;
 
     .titulo{
         width: 100%;
-        height: 62px;
-        font-size: 27px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        height: 112px;
 
-    }
-
-    .opciones{
-        width: 100%;
-        height: 79px;
-        display: flex;
-        overflow-x: scroll;
-        gap: 4%;
-    }
-
-    .fotito{
-        width: 100%; 
-        height: 273px;
-        display: flex;
-        overflow-x: scroll;
-        gap: 4%;
-
-        .imagee{
-            flex: 0 0 190px;
-            height: 155px;
-            border-radius: 12%;
-            flex-direction: column;
-
-            img{
-                border-radius: 12%;
-            }
-        }
-
-        .titulo-img{
-            width: 100%;
-            height: 30px;
-            font-size: 24px;
-            color: black;
-        }
         .sub{
             width: 100%;
-            height: 18px;
-            color: gray;
-            font-size: 12px;
-        }
-        .abajo{
-            width: 100%;
-            height: 30px;
-            color: black;
+            height: 44px;
             display: flex;
-            align-items: center;
-            gap: 5%;
-
-            .iconos {
-                font-family: 'Material Icons Outlined';
-                font-weight: normal;
-                font-style: normal;
-                font-size: 10px; 
-                line-height: 1;
-                letter-spacing: normal;
-                text-transform: none;
-                display: inline-block;
-                white-space: nowrap;
-                word-wrap: normal;
-                direction: ltr;
-                --webkit-font-feature-settings: 'liga';
-                --webkit-font-smoothing: antialiased;
-              }
+            font-size: 40px;
+            justify-content: center;
+            color: #e2e8f0;
         }
-
-        .cuadra{
-            flex: 0 0 190px;
-            height: 273px;
-        }
-
     }
-    
+
+    .descripcion{
+        width: 100%;
+        height: 100px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .chiquito{
+            width: 78%;
+            height: 100px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    .btn{
+        width: 100%;
+        height: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-footer{
-    box-shadow: 0 0 10px -3px black;
-    background-color: white;
-    width: 100%;
-    height: 45px;
-    display: flex;
-    position: fixed;
-    bottom: 0;
-    z-index: 10;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
-}
+
 
 /* CSS */
 .button-81 {
-    height: 50px;
+    width:300px ;
   background-color: #fff;
   border: 0 solid #e2e8f0;
   border-radius: 1.5rem;
@@ -360,7 +101,6 @@ footer{
   color: #0d172a;
   cursor: pointer;
   display: inline-block;
-  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1;
@@ -373,10 +113,12 @@ footer{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  font-family: "Playfair Display", serif;
+
 }
 
 .button-81:hover {
-  background-color: aquamarine;
+  background-color: #1e293b;
   color: #fff;
 }
 
