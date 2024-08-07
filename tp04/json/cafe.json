@@ -1,0 +1,202 @@
+[
+    {
+        "nombre": "Le Paris",
+        "origen": "Paricina",
+        "descripcion": "Situado justo al lado del Museo Chopin, lleno de plantas y bellos objetos, el café constituye un escenario de ensueño para las fotos más trendys en Instagram",
+        "direccion": "City Center, Warsaw",
+        "estrellas": "4.5 (478)",
+        "img": "https://i.pinimg.com/736x/ca/1e/d1/ca1ed1bd52656605afc4172767ac36b3.jpg",
+        "resto": {
+            "img1": "https://i.pinimg.com/564x/58/d3/0a/58d30a5558d7a9bb22267f76f0028257.jpg",
+            "img2": "https://i.pinimg.com/564x/c6/15/2c/c6152c0f51810e57659d2e71e2e9490f.jpg",
+            "img3": "https://i.pinimg.com/564x/8d/5b/d5/8d5bd5ca8e8af3cea1927cc41d3d1909.jpg",
+            "img4": "https://i.pinimg.com/564x/be/62/43/be624321ab29509213d560f3541438dd.jpg",
+            "img5": "",
+            "img6": "",
+            "img7": ""
+        },
+        "menu": {
+            "nombre": "Chocolate tart",
+            "precio": "$6.30",
+            "nombre2": "Cheesecake",
+            "precio2": "$6.30",
+            "nombre3": "Strawberry cake",
+            "precio3": "$6.30"
+        }
+    },
+    {
+        "nombre": "Café Milano",
+        "origen": "Italiana",
+        "descripcion": "Un rincón de Italia en el corazón de la ciudad, famoso por su café espresso y deliciosos pasteles",
+        "direccion": "Old Town, Warsaw",
+        "estrellas": "4.6 (312)",
+        "img": "https://i.pinimg.com/originals/9a/ea/1f/9aea1f1f90dfc5bbd58ccbe4a1f15835.jpg",
+        "resto": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": "",
+            "img5": "",
+            "img6": "",
+            "img7": ""
+        },
+        "menu": {
+            "nombre": "Tiramisu",
+            "precio": "$7.00",
+            "nombre2": "Cannoli",
+            "precio2": "$6.50",
+            "nombre3": "Panna cotta",
+            "precio3": "$6.00"
+        }
+    },
+    {
+        "nombre": "El Mango",
+        "origen": "Tailandesa",
+        "descripcion": "Un ambiente tropical con sabores exóticos, famoso por sus platos con mango",
+        "direccion": "Saska Kępa, Warsaw",
+        "estrellas": "4.8 (510)",
+        "img": "https://i.pinimg.com/originals/6d/91/8c/6d918c813d15a0b39c2dcf0c0a7d2a13.jpg",
+        "resto": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": "",
+            "img5": "",
+            "img6": "",
+            "img7": ""
+        },
+        "menu": {
+            "nombre": "Mango sticky rice",
+            "precio": "$5.50",
+            "nombre2": "Green curry",
+            "precio2": "$7.20",
+            "nombre3": "Pad Thai",
+            "precio3": "$8.30"
+        }
+    },
+    {
+        "nombre": "Café de la Paz",
+        "origen": "Internacional",
+        "descripcion": "Un lugar acogedor para relajarse y disfrutar de una taza de café con una variedad de dulces de todo el mundo",
+        "direccion": "City Center, Warsaw",
+        "estrellas": "4.4 (289)",
+        "img": "https://i.pinimg.com/originals/ef/84/2b/ef842b58b4c9f4d1777890c1e724926d.jpg",
+        "resto": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": "",
+            "img5": "",
+            "img6": "",
+            "img7": ""
+        },
+        "menu": {
+            "nombre": "Croissant",
+            "precio": "$3.50",
+            "nombre2": "Brownie",
+            "precio2": "$4.00",
+            "nombre3": "Blueberry muffin",
+            "precio3": "$3.00"
+        }
+    },
+    {
+        "nombre": "Café Árabe",
+        "origen": "Árabe",
+        "descripcion": "Un café tradicional con una gran variedad de dulces árabes y café con cardamomo",
+        "direccion": "Praga, Warsaw",
+        "estrellas": "4.7 (340)",
+        "img": "https://i.pinimg.com/originals/4b/3d/7b/4b3d7b63a8e3b5c5bfa4392e382c2f02.jpg",
+        "resto": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": "",
+            "img5": "",
+            "img6": "",
+            "img7": ""
+        },
+        "menu": {
+            "nombre": "Baklava",
+            "precio": "$4.50",
+            "nombre2": "Knafeh",
+            "precio2": "$5.00",
+            "nombre3": "Sahlab",
+            "precio3": "$4.00"
+        }
+    },
+    {
+        "nombre": "Bistro Francés",
+        "origen": "Francesa",
+        "descripcion": "Una experiencia culinaria auténtica con platos franceses tradicionales y un ambiente acogedor",
+        "direccion": "Mokotów, Warsaw",
+        "estrellas": "4.9 (120)",
+        "img": "https://i.pinimg.com/originals/5a/7c/6c/5a7c6cc8223a2c01f9d87f5b8f5c3a21.jpg",
+        "resto": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": "",
+            "img5": "",
+            "img6": "",
+            "img7": ""
+        },
+        "menu": {
+            "nombre": "Quiche Lorraine",
+            "precio": "$7.50",
+            "nombre2": "Croque Monsieur",
+            "precio2": "$8.00",
+            "nombre3": "Ratatouille",
+            "precio3": "$7.80"
+        }
+    },
+    {
+        "nombre": "La Esquina",
+        "origen": "Española",
+        "descripcion": "Un café vibrante con tapas y una amplia selección de vinos españoles",
+        "direccion": "Żoliborz, Warsaw",
+        "estrellas": "4.3 (198)",
+        "img": "https://i.pinimg.com/originals/6a/82/ba/6a82bab28e4f1e8f08a7fdd95e4f08a7.jpg",
+        "resto": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": "",
+            "img5": "",
+            "img6": "",
+            "img7": ""
+        },
+        "menu": {
+            "nombre": "Tortilla española",
+            "precio": "$5.50",
+            "nombre2": "Patatas bravas",
+            "precio2": "$4.50",
+            "nombre3": "Churros",
+            "precio3": "$3.50"
+        }
+    },
+    {
+        "nombre": "Café Sueco",
+        "origen": "Sueca",
+        "descripcion": "Especialidades suecas en un ambiente minimalista y acogedor, famoso por su fika",
+        "direccion": "Śródmieście, Warsaw",
+        "estrellas": "4.6 (270)",
+        "img": "https://i.pinimg.com/originals/7a/bc/c5/7abcc5b637346c1c8c82e26c31b3b6b9.jpg",
+        "resto": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": "",
+            "img5": "",
+            "img6": "",
+            "img7": ""
+        },
+        "menu": {
+            "nombre": "Kanelbullar",
+            "precio": "$3.00",
+            "nombre2": "Semla",
+            "precio2": "$4.00",
+            "nombre3": "Prinsesstårta",
+            "precio3": "$5.00"
+        }
+    }
+]
