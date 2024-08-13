@@ -447,11 +447,15 @@ form button:active {
 
 
 @media (max-width: 480px) {
+    body{
+        width: 100%;
+        height: 100vh;
+    }
     .izquierda{
         display: none;
     }
     .derecha {
-        height: 100%;
+        height: 133vh;
         width: 100%;
         display: flex;
         justify-content: start;
@@ -472,12 +476,11 @@ form button:active {
     }
 
     .containern form {
-        width: 86%;
+        width: 90%;
         top: 50px;
-        left: 0;
-        padding: none;
         box-shadow: none;
-
+        overflow: hidden;
+        height: 100%;
     }
 
     form input {
