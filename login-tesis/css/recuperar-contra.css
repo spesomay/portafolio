@@ -488,6 +488,13 @@ form button:active {
         font-size: 28px;
     }
 
-    
+    form{
+        width: 114%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
 } 
