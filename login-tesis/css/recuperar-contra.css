@@ -454,6 +454,7 @@ form button:active {
         width: 100%;
         margin-left: 0;
         padding: 20px;
+        height: 60%;
     }
 
     .containern {
