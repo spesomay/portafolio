@@ -282,7 +282,7 @@ bottom: 0;
 
 .containern {
     width: 400px;
-    height: 100%;
+    height: 600px;
     margin: 2rem auto;
     background-color: var(--white-color);
     overflow: hidden;
@@ -455,7 +455,7 @@ form button:active {
         display: none;
     }
     .derecha {
-        height: 133vh;
+        height: 100vh;
         width: 100%;
         display: flex;
         justify-content: start;
@@ -469,6 +469,7 @@ form button:active {
         width: 100%;
         margin: 1rem auto;
         box-shadow: none;
+        height: 100%;
     }
 
     h3 {
@@ -501,4 +502,17 @@ form button:active {
     
 }
 
- 
+select {
+    height: 50px;
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 1px solid var(--light-gray-color);
+    border-radius: 5px;
+    background: transparent;
+    font-family: inherit;
+}
+
+a{
+    font-family: inherit;
+}
