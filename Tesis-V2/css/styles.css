@@ -38,14 +38,15 @@ body {
 
 .conducir {
     width: 100%;
-    background-color: #34A6BA;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .contenedor-imagen {
-    width: 90%;
+    width: 100%;
+    height: 100%;
+
 }
 
 .contenedor-imagen .img {
@@ -316,7 +317,7 @@ main .color_abajo {
     color: black;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
-    width: 93%;
+    width:100%;
     height: 40%;
     display: flex;
     justify-content: center;
@@ -406,6 +407,33 @@ main .color_abajo {
     height: 100%;
     display: flex;
     flex-direction: column;
+
+    .novedad_titulo {
+        padding: 10px;
+        font-size: 20px;
+        width: 100%;
+        height: 38%;
+}
+
+.novedad_leer {
+    padding-left: 10%;
+    width: 100%;
+    height: 30%;
+    color: #39B7CD;
+    font-size: 1rem;
+}
+
+}
+
+.novedad_info {
+    width: 100%;
+    height: 34%;
+    padding: 10px;
+    color: gray;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .eventos {
