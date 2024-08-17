@@ -878,7 +878,7 @@ footer {
 
             
             .img{
-                height: 100%;
+                height: 445px;
                 object-fit: cover;
                 background-size: cover;
             }
@@ -1149,7 +1149,7 @@ footer {
 
         .info {
             width: 89%;
-            height: 99%;
+            height: 100%;
             background-color: #fafafa;
             display: flex;
             border-radius: 17px;
@@ -1262,7 +1262,7 @@ footer {
 
     .tablon {
         width: 100%;
-        height: 50%;
+        height: 605px;
         display: flex;
     }
 
