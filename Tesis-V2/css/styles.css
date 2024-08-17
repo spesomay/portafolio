@@ -1580,3 +1580,17 @@ footer {
         margin-left: -300%;
     }
 }
+
+@media (max-width: 480px) {
+    .cont_titulo {
+        height: 18vh; /* Ajustar altura para pantallas pequeñas */
+    }
+    
+    .slider-frame {
+        height: 18vh; /* Ajustar altura para pantallas pequeñas */
+    }
+
+    .slider-frame img {
+        height: 100%; /* Ajustar imagen en pantallas pequeñas */
+    }
+}
