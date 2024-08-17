@@ -862,40 +862,46 @@ footer {
         font-size: 35px;
     }
 
-   .cont_titulo {
-    width: 100%;
-    height: 25vh; /* Usar altura relativa */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .cont_titulo {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-.slider-frame {
-    width: 92%;
-    height: 24vh; /* Usar altura relativa */
-    overflow: hidden;
-    border-radius: 17px;
-}
+        .slider-frame {
+            width: 92%;
+            height: 89%;
+            overflow: hidden;
+            border-radius: 17px;
+            overflow: hidden;
 
-.slider-frame ul {
-    display: flex;
-    padding: 0;
-    width: 400%;
-    animation: slide 20s infinite alternate ease-in-out;
-}
+            
+            .img{
+                height: 100%;
+                object-fit: cover;
+                background-size: cover;
+            }
+            
+        }
 
-.slider-frame li {
-    width: 100%;
-    height: 100%;
-    list-style: none;
-}
+        .slider-frame ul {
+            display: flex;
+            padding: 0;
+            width: 400%;
 
-.slider-frame img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Mantener la imagen cubierta */
-    background-size: cover;
-}
+            animation: slide 20s infinite alternate ease-in-out;
+        }
+
+        .slider-frame li {
+            width: 100%;
+            height: 100%;
+            list-style: none;
+        }
+
+        .slider-frame img {
+            width: 100%;
+        }
 
         /* .titulo{
      
@@ -1143,7 +1149,7 @@ footer {
 
         .info {
             width: 89%;
-            height: 100%;
+            height: 99%;
             background-color: #fafafa;
             display: flex;
             border-radius: 17px;
@@ -1256,7 +1262,7 @@ footer {
 
     .tablon {
         width: 100%;
-        height: 600px;
+        height: 50%;
         display: flex;
     }
 
@@ -1578,19 +1584,5 @@ footer {
 
     100% {
         margin-left: -300%;
-    }
-}
-
-@media (max-width: 480px) {
-    .cont_titulo {
-        height: 18vh; /* Ajustar altura para pantallas pequeñas */
-    }
-    
-    .slider-frame {
-        height: 18vh; /* Ajustar altura para pantallas pequeñas */
-    }
-
-    .slider-frame img {
-        height: 100%; /* Ajustar imagen en pantallas pequeñas */
     }
 }
