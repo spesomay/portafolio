@@ -1,0 +1,126 @@
+[{
+    "nombre": "Café de la Paz",
+    "origen": "Internacional",
+    "descripcion": "Un lugar acogedor para relajarse y disfrutar de una taza de café con una variedad de dulces de todo el mundo",
+    "direccion": "City Center, Warsaw",
+    "estrellas": "4.4 (289)",
+    "img": "https://i.pinimg.com/originals/ef/84/2b/ef842b58b4c9f4d1777890c1e724926d.jpg",
+    "resto": {
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "img4": "",
+        "img5": "",
+        "img6": "",
+        "img7": ""
+    },
+    "menu": {
+        "nombre": "Croissant",
+        "precio": "$3.50",
+        "nombre2": "Brownie",
+        "precio2": "$4.00",
+        "nombre3": "Blueberry muffin",
+        "precio3": "$3.00"
+    }
+},
+{
+    "nombre": "Café Árabe",
+    "origen": "Árabe",
+    "descripcion": "Un café tradicional con una gran variedad de dulces árabes y café con cardamomo",
+    "direccion": "Praga, Warsaw",
+    "estrellas": "4.7 (340)",
+    "img": "https://i.pinimg.com/originals/4b/3d/7b/4b3d7b63a8e3b5c5bfa4392e382c2f02.jpg",
+    "resto": {
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "img4": "",
+        "img5": "",
+        "img6": "",
+        "img7": ""
+    },
+    "menu": {
+        "nombre": "Baklava",
+        "precio": "$4.50",
+        "nombre2": "Knafeh",
+        "precio2": "$5.00",
+        "nombre3": "Sahlab",
+        "precio3": "$4.00"
+    }
+},
+{
+    "nombre": "Bistro Francés",
+    "origen": "Francesa",
+    "descripcion": "Una experiencia culinaria auténtica con platos franceses tradicionales y un ambiente acogedor",
+    "direccion": "Mokotów, Warsaw",
+    "estrellas": "4.9 (120)",
+    "img": "https://i.pinimg.com/originals/5a/7c/6c/5a7c6cc8223a2c01f9d87f5b8f5c3a21.jpg",
+    "resto": {
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "img4": "",
+        "img5": "",
+        "img6": "",
+        "img7": ""
+    },
+    "menu": {
+        "nombre": "Quiche Lorraine",
+        "precio": "$7.50",
+        "nombre2": "Croque Monsieur",
+        "precio2": "$8.00",
+        "nombre3": "Ratatouille",
+        "precio3": "$7.80"
+    }
+},
+{
+    "nombre": "La Esquina",
+    "origen": "Española",
+    "descripcion": "Un café vibrante con tapas y una amplia selección de vinos españoles",
+    "direccion": "Żoliborz, Warsaw",
+    "estrellas": "4.3 (198)",
+    "img": "https://i.pinimg.com/originals/6a/82/ba/6a82bab28e4f1e8f08a7fdd95e4f08a7.jpg",
+    "resto": {
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "img4": "",
+        "img5": "",
+        "img6": "",
+        "img7": ""
+    },
+    "menu": {
+        "nombre": "Tortilla española",
+        "precio": "$5.50",
+        "nombre2": "Patatas bravas",
+        "precio2": "$4.50",
+        "nombre3": "Churros",
+        "precio3": "$3.50"
+    }
+},
+{
+    "nombre": "Café Sueco",
+    "origen": "Sueca",
+    "descripcion": "Especialidades suecas en un ambiente minimalista y acogedor, famoso por su fika",
+    "direccion": "Śródmieście, Warsaw",
+    "estrellas": "4.6 (270)",
+    "img": "https://i.pinimg.com/originals/7a/bc/c5/7abcc5b637346c1c8c82e26c31b3b6b9.jpg",
+    "resto": {
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "img4": "",
+        "img5": "",
+        "img6": "",
+        "img7": ""
+    },
+    "menu": {
+        "nombre": "Kanelbullar",
+        "precio": "$3.00",
+        "nombre2": "Semla",
+        "precio2": "$4.00",
+        "nombre3": "Prinsesstårta",
+        "precio3": "$5.00"
+    }
+}
+]
