@@ -7,7 +7,6 @@ function pintarDatos(coso){
         return response.json();
     })
     .then(cate => {
-        alert('Entró');
         
         cate.forEach(element => {
             // alert(nombreResto)
