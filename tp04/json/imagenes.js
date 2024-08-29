@@ -13,7 +13,7 @@ function pintarDatos(coso){
             if(element.nombre === nombreResto){
                 localStorage.clear();
                 localStorage.setItem("img", element.img);
-                localStorage.setItem("nombre", element.nombre);
+                localStorage.setItem("origen", element.origen);
                 console.log(localStorage.getItem("img"))
             }
         });
