@@ -34,7 +34,7 @@ fetch('json/cafe.json')
         </div>
         <div class="contenedor">
             <div class="titulo">
-                ${localStorage.getItem("nombre")}
+                ${localStorage.getItem("origen")}
                 <h5>see on a map</h5>
             </div>
             <div class="informacion">
