@@ -31,8 +31,8 @@ function pintarDatos(coso){
                 localStorage.setItem("precio1", element.menu.precio);
                 localStorage.setItem("menu2", element.menu.nombre2);
                 localStorage.setItem("precio2", element.menu.precio2);
-                localStorage.setItem("menu3", element.menu.nombre);
-                localStorage.setItem("precio3", element.menu.precio);
+                localStorage.setItem("menu3", element.menu.nombre3);
+                localStorage.setItem("precio3", element.menu.precio3);
 
                 console.log("Datos guardados en localStorage");
             }
