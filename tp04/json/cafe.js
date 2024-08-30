@@ -94,7 +94,7 @@ fetch('json/cafe.json')
                         </div>
                     </div>
                     <div class="cualalo">
-                        ${localStorage.getItem("nombre3")}
+                        ${localStorage.getItem("menu3")}
                         <div class="cantidad">
                         ${localStorage.getItem("precio3")}
                             <div class="cuadrado2">
