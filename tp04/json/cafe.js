@@ -34,15 +34,15 @@ fetch('json/cafe.json')
         </div>
         <div class="contenedor">
             <div class="titulo">
-                ${localStorage.getItem("origen")}
+            ${localStorage.getItem("origen")}
                 <h5>see on a map</h5>
             </div>
             <div class="informacion">
-                ${resto[i].descripcion}
+            ${localStorage.getItem("descripcion")}
             </div>
            <div class="nose ">
                 <div class="infor">
-                    ${resto[i].direccion}
+            ${localStorage.getItem("direccion")}
                     <div class="abajo">
                             <div class="iconos icon_S">star</div>
                             4.5 (478)
@@ -54,16 +54,16 @@ fetch('json/cafe.json')
             </div> 
             <div class="lugares">
                 <div class="imagee">
-                    <img src="${resto[i].resto.img1}" alt="">
+                    <img src="${localStorage.getItem("img1")}" alt="">
                 </div>
                 <div class="imagee">
-                    <img src="${resto[i].resto.img2}" alt="">
+                    <img src="${localStorage.getItem("img2")}" alt="">
                 </div>
                 <div class="imagee">
-                    <img src="${resto[i].resto.img3}" alt="">
+                    <img src="${localStorage.getItem("img3")}" alt="">
                 </div>
                 <div class="imagee">
-                    <img src="${resto[i].resto.img4}" alt="">
+                    <img src="${localStorage.getItem("img4")}" alt="">
                 </div>
             </div>  
             <div class="menu">
@@ -76,27 +76,27 @@ fetch('json/cafe.json')
                 </div>
                 <div class="precio">
                     <div class="cualalo">
-                    ${resto[i].menu.nombre}
+                        ${localStorage.getItem("menu1")}
                         <div class="cantidad">
-                            ${resto[i].menu.precio}
+                        ${localStorage.getItem("precio1")}
                             <div class="cuadrado2">
                                 <div class="iconos icon_S">arrow_forward</div>
                             </div>
                         </div>
                     </div>
                     <div class="cualalo">
-                    ${resto[i].menu.nombre2}
+                        ${localStorage.getItem("menu2")}
                         <div class="cantidad">
-                             ${resto[i].menu.precio2}
+                        ${localStorage.getItem("precio2")}
                             <div class="cuadrado2">
                                 <div class="iconos icon_S">arrow_forward</div>
                             </div>
                         </div>
                     </div>
                     <div class="cualalo">
-                    ${resto[i].menu.nombre3}
+                        ${localStorage.getItem("nombre3")}
                         <div class="cantidad">
-                             ${resto[i].menu.precio3}
+                        ${localStorage.getItem("precio3")}
                             <div class="cuadrado2">
                                 <div class="iconos icon_S">arrow_forward</div>
                             </div>
