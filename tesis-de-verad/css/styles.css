@@ -879,11 +879,11 @@ main {
     }
 
     .carta_novedad {
-        height: 140px;
+        height: 200px;
     }
 
     .tablon {
-        height: 477px;
+        height: 638px;
     }
 
     .sub {
@@ -911,7 +911,7 @@ main {
     }
 
     .contenedor_opciones {
-        height: 818px;
+        height: 883px;
     }
 
     .contenedor_consulta {
