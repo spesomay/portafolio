@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/portal.css">
+    <link rel="stylesheet" href="css/carrito.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <title>Tasas</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="barra">
+           <a href="index.html"> <i class="fa-solid fa-house-chimney"></i></a>
+            <div class="casa">
+                <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+                <a href="user.html"><i class="fa-solid fa-user"></i></a>
+             </div>
+             <div class="container-icon">
+				<div class="container-cart-icon">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="icon-cart"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+						/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Zapatos Nike</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+        </nav>
+    </header>
+
+    <div class="contenedor">
+
+        <div class="logo">
+                <img class="img" src="imagenes/URBANA (1920 x 655 px) (3).png" alt="">
+            
+        </div>
+    </div>
+    
+        <div class="tit"></div>
+  
+        <div class="container">
+            <div class="nose">
+                <!-- <a class="card1" href="#">
+                <div class="card">
+                    <div class="icono"><i class="fa-solid fa-house"></i></div>
+                    <h3>Inmuebles</h3>
+                    <p class="small">C.V.P<br>Vivienda y terrenos</p>
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                            →
+                        </div>
+                    </div>
+                </div>
+
+            </a> -->
+
+            <a class="card2 sombra" href="inmuebles.html">
+                <div class="card">
+                    <div class="icono"><i class="fa-solid fa-house"></i></div>
+                    <h3>Inmuebles</h3>
+                    <p class="small">C.V.P</p>
+                    <p class="small">Vivienda y </p>
+                    <p class="small">terrenos</p>
+
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                            →
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="card2 sombra" href="#">
+                <div class="card">
+                    <div class="icono"><i class="fa-solid fa-car"></i></div>
+                    <h3>Autos</h3>
+                    <p class="small">Patente<br>Rodado</p>
+
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                            →
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="card2 sombra" href="#">
+                <div class="card">
+                    <div class="icono"><i class="fa-solid fa-motorcycle"></i></div>
+                    <h3>Motos</h3>
+                    <p class="small">Patente<br>Rodado</p>
+
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                            →
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="card2 sombra" href="#">
+                <div class="card">
+                    <div class="icono"><i class="fa-solid fa-shop"></i></div>
+                    <h3>Comercio</h3>
+                    <p class="small">S.&H.</p>
+                    <p class="small">Pago Mensual</p>
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                            →
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="card2 sombra" href="#">
+                <div class="card">
+                    <div class="icono"><i class="fa-solid fa-industry"></i></div>
+                    <h3>Grandes</h3>
+                    <p class="small">S.&H.</p>
+                    <p class="small">Pago Bimestral</p>
+                    <p class="small">Que presentan</p>
+                    <p class="small">DDJJ</p>
+
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                            →
+                        </div>
+                    </div>
+                </div>
+            </a>
+            </div>
+            
+
+        </div>
+    </div>
+    <script src="js/carrito.js"></script>
+</body>
+
+</html>
