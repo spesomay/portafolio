@@ -335,7 +335,7 @@ footer {
 
 #sidenav {
     position: fixed;
-    height: 100vh;
+    height: 100dvh;
     width: 66%;
     right: -100% !important;
     bottom: 0;
