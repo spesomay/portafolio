@@ -388,7 +388,7 @@ footer {
 }
 .usuario{
     width: 100%;
-    height: 188px;
+    height: 35dvh;
     display: flex;
     gap: 5%;
     align-items: end;
