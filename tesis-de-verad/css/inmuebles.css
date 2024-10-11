@@ -1,0 +1,759 @@
+:root {
+    --color-1--: #39B7CD;
+    --color-2--: #34A6BA;
+    --color-3--: #3284B1;
+    --color-4--: #2F62A8;
+    --color-5--: #033346;
+    --color-6--: #3CBF7C;
+    --color-7--: #3EC62B;
+    --color-8--: #7ED957;
+    --color-9--: #60D050;
+    --color-10--:#4692a097;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x:hidden !important;
+}
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .barra {
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        background-color: var(--color-10--);
+  
+
+        .logo {
+            width: 50px;
+            height: 50px;
+
+            .img {
+                
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+
+}
+.icono_c{
+    color: white;
+    font-size: 30px;
+}
+li{
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+li:hover{
+    border-left: solid 5px white;
+    cursor: pointer;
+}
+.menuLateral {
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    top: 0;
+    bottom: 0;
+    background-color: var(--color-10--);
+    right: -100%;
+    transition: all .5s ease-in-out;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.btn-close{
+    position: absolute;
+    right: 1em;
+    top:1em;
+    border: 0;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.mostrarmenu {
+    right: 0 !important;
+    box-shadow: -60px 0 1400px 10000px rgba(0, 0, 0, 0.411);
+}
+
+.icon_s{
+    font-size: 20px;
+}
+.icono_l {
+    font-size: 50px;
+    color: white;
+}
+
+.TituloEventos {
+    width: 100%;
+    height: 60px;
+    padding-left: 6%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.texto {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.sombra {
+    box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.icono_m {
+    color: white;
+    font-size: 45px;
+    
+}
+
+.icono_l {
+    color: black;
+    font-size: 25px;
+    
+}
+.boton{
+    background-color: transparent;
+    border: none;
+}
+.contInmueble {
+    width: 100%;
+    height: 700px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    .contPeque {
+        width: 90%;
+        height: 80px;
+        display: flex;
+
+        .contRedondo {
+            width: 80px;
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .icono_redondo {
+                border: solid 1px rgb(98, 96, 255);
+                width: 60%;
+                height: 60%;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                font-weight: 200;
+            }
+        }
+
+        .contTexto {
+            width: 100px;
+            height: 100%;
+            padding: 10px;
+
+            .textoNegro {
+                display: flex;
+                align-items: center;
+                text-align: center;
+                height: 50%;
+                width: 100%;
+            }
+
+            .textoGris {
+                width: 100%;
+                height: 50%;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: rgb(114, 114, 114);
+            }
+        }
+    }
+
+    .contGrande {
+        width: 90%;
+        height: 500px;
+        padding: 20px;
+
+        .textoGrande {
+            width: 100%;
+            height: 150px;
+
+        }
+    }
+}
+
+.sombra {
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.5);
+}
+
+.pequeño {
+    font-weight: 400;
+}
+
+footer {
+    margin-top: none;
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+
+    .tres {
+        height: 34%;
+        width: 100%;
+        background-color: #4692a097;
+
+
+        .tit {
+            display: flex;
+            width: 100%;
+            height: 20%;
+            justify-content: center;
+            align-items: center;
+
+
+            .letra {
+                display: flex;
+                width: 90%;
+                height: 72%;
+                border-bottom: 1px solid white;
+                justify-content: center;
+                align-items: center;
+                color: white;
+            }
+        }
+
+        .contenedor-cuadrado {
+            width: 100%;
+            height: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 2%;
+
+            .lugar {
+                width: 80%;
+                height: 13%;
+                color: white;
+                font-size: 10px;
+                display: flex;
+                align-items: center;
+                border: solid 1px white;
+
+
+                .iconos {
+                    height: 100%;
+                    width: 17%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+
+        .contenedor-telefono {
+            width: 100%;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+
+            .mitad {
+                width: 100%;
+                height: 35%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: wheat;
+                padding-top: 5%;
+            }
+
+            .telefono {
+                width: 34%;
+                height: 77%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .info_tel {
+                    text-align: center;
+                }
+            }
+
+            span {
+
+                font-size: 38px;
+                justify-content: center;
+                display: flex;
+                color: white;
+            }
+
+            div {
+                margin-right: 5%;
+                font-size: 12px;
+                margin-top: 15px;
+                justify-content: center;
+                display: flex;
+                color: white;
+                text-align: center;
+            }
+        }
+
+        .contenedor-nosotros {
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .urbana {
+                width: 80%;
+                height: 20%;
+                color: white;
+                display: flex;
+                font-size: 23px;
+            }
+
+            .nosotros {
+                width: 100%;
+                height: 20%;
+                color: white;
+                display: flex;
+                padding-left: 10%;
+            }
+        }
+
+
+    }
+
+    .telefonos {
+
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+
+
+        .titulo_telefono {
+            color: white;
+
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 20px;
+            margin: 20px;
+            margin-left: 35px;
+
+        }
+
+        .conte_telefono {
+            display: none;
+
+
+
+        }
+    }
+
+}
+
+
+a{
+    color: black;
+}
+
+@media (orientation: landscape) {
+    .contInmueble{
+        height: 530px;
+        .contGrande {
+            width: 90%;
+            height: 400px;
+            padding: 40px;
+
+            .textoGrande {
+                width: 100%;
+                height: 150px;
+                font-size: 25px;
+              
+            }
+            .input{
+                position: relative;
+                .numInmueble{
+                    width: 300px;
+                    height: 60px;
+                    border: solid 2px var(--color-4--);
+                    border-radius: 5px;
+                    padding: 10px;
+                    font-size: 17px;
+                    top: 40px;
+              
+            
+                }
+                .nPartida{
+                    position: absolute;
+                    top: -7px;
+                    left: 30px;
+                    background-color: white;
+                    width: 90px;
+                    display: flex;
+                    justify-content: center;
+                    color: #2F62A8;
+
+                }
+                
+            }
+            .continuar{
+                width: 100px;
+                height: 40px;
+                background-color: #2F62A8;
+                color: white;
+                border: none ;
+                margin-top: 40px;
+                font-size: 17px;
+            }
+        }
+    }
+    .menuLateral {
+        position: absolute;
+        height: 100%;
+        width: 40%;
+        top: 0;
+        bottom: 0;
+        background-color: var(--color-10--);
+        right: -100%;
+        transition: all .5s ease-in-out;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+     
+    }
+    footer {
+        margin-top: none;
+        width: 100%;
+        height: 450px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+
+        .tres {
+            height: 100%;
+            width: 34%;
+            background-color: #033346;
+
+
+            .tit {
+                display: flex;
+                width: 100%;
+                height: 20%;
+                justify-content: center;
+                align-items: center;
+
+
+                .letra {
+                    display: flex;
+                    width: 90%;
+                    height: 72%;
+                    border-bottom: 1px solid white;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                }
+            }
+
+            .contenedor-cuadrado {
+                width: 100%;
+                height: 70%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 2%;
+
+                .lugar {
+                    width: 80%;
+                    height: 13%;
+                    color: white;
+                    font-size: 10px;
+                    display: flex;
+                    align-items: center;
+                    border: solid 1px white;
+
+
+                    .iconos {
+                        height: 100%;
+                        width: 17%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+
+            .contenedor-telefono {
+                width: 100%;
+                height: 80%;
+                display: flex;
+                flex-direction: column;
+
+                .mitad {
+                    width: 100%;
+                    height: 30%;
+                    display: flex;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 11%;
+                    color: wheat;
+                }
+
+                .telefono {
+                    width: 34%;
+                    height: 77%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+
+                    .info_tel {
+                        text-align: center;
+                    }
+                }
+
+                span {
+
+                    font-size: 38px;
+                    justify-content: center;
+                    display: flex;
+                    color: white;
+                }
+
+                div {
+                    margin-right: 5%;
+                    font-size: 12px;
+                    margin-top: 15px;
+                    justify-content: center;
+                    display: flex;
+                    color: white;
+                    text-align: center;
+                }
+            }
+
+            .contenedor-nosotros {
+                width: 100%;
+                height: 80%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .urbana {
+                    width: 80%;
+                    height: 20%;
+                    color: white;
+                    display: flex;
+                    font-size: 23px;
+                }
+
+                .nosotros {
+                    width: 100%;
+                    height: 20%;
+                    color: white;
+                    display: flex;
+                    padding-left: 10%;
+                }
+            }
+
+
+        }
+
+        .telefonos {
+
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+
+
+            .titulo_telefono {
+                color: white;
+
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 20px;
+                margin: 20px;
+                margin-left: 35px;
+
+            }
+
+            .conte_telefono {
+                display: none;
+
+
+
+            }
+        }
+
+    }
+
+    .eventos {
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .titulo_even {
+            font-style: italic;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 40px;
+            margin: 50px;
+            margin-left: 35px;
+
+        }
+
+        .button {
+
+            width: 30%;
+            font-size: 30px;
+            position: relative;
+            padding: 24px 64px;
+            border-radius: 100vw;
+            background-color: transparent;
+            font-family: 'Playfair Display', serif;
+            color: #fafafa;
+            border: solid 1px rgba(#fafafa 0.3);
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+            -webkit-mask-image: -webkit-radial-gradient(white, black);
+
+            .button-text {
+                position: relative;
+                z-index: 2;
+                color: black;
+            }
+
+            .fill-container {
+                position: absolute;
+                left: 0;
+                top: 50%;
+                width: 100%;
+                padding-bottom: 100%;
+                transform: translateY(-50%) rotate(180deg);
+
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: var(--color-2--);
+                    border-radius: 50%;
+                    transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+                    transform: translateY(-100%);
+                }
+            }
+
+            &:hover {
+                border-color: var(--color-2--);
+                transform: translateY(-4px);
+
+                .fill-container {
+                    transform: translateY(-50%) rotate(0);
+
+                    &::after {
+                        transform: translateY(0);
+                    }
+                }
+            }
+
+            a {
+                color: black;
+            }
+        }
+
+        .calen {
+            font-size: 70px;
+        }
+    }
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
