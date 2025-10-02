@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forma Ondulada con SVG</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .wave {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background: white;
+      overflow: hidden;
+    }
+
+    .wave svg {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .content {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      color: #333;
+    }
+
+    .content h1 {
+      font-size: 2.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wave">
+    <svg viewBox="0 0 500 500" preserveAspectRatio="none">
+      <path d="M0,300 Q150,100 300,200 T500,100 L500,500 L0,500 Z" fill="#a9e2e1"/>
+    </svg>
+  </div>
+
+  <div class="content">
+    <h1>Ejemplo de Forma con SVG</h1>
+    <p>Curva suave tipo blob</p>
+  </div>
+
+</body>
+</html>

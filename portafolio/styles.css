@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-family: cursive;
+    font-size: 30px;
+
+}
+
+.contenedor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .cv {
+        width: 100%;
+        height: 650px;
+    }
+
+    .sobreMi {
+        width: 100%;
+        height: 650px;
+        display: flex;
+    }
+
+
+}
+
+.derecha {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.izquierda {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+    width: 60%;
+    height: 60%;
+    background-color: rgb(179, 62, 62);
+}
+
+.informacion {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .profesion {
+        height: 78px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .profesion1 {
+        height: 78px;
+        width: 100%;
+        display: flex;
+        align-items: end;
+        font-size: 60px;
+    }
+
+    .profesion2 {
+        font-size: 35px;
+        height: 78px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .profesion3 {
+        height: 78px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 40px;
+    }
+}
+
+button {
+    background-color: transparent;
+    /* fondo transparente */
+    border: 2px solid #000000;
+    /* borde azul por ejemplo */
+    color: #000000;
+    /* texto azul */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    /* background-color: #ffffff;  fondo azul al pasar el mouse */
+    color: rgb(0, 0, 0);
+    /* texto blanco al pasar el mouse */
+}
+
+svg {
+    width: 600px;
+    height: 600px;
+}
+
+.blob {
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+    transition: d 3s ease-in-out;
+}
+
+.triangulo {
+    position: absolute;
+    bottom: 0;
+    /* pegado al borde inferior */
+    left: 0;
+    width: 100%;
+    /* ocupa todo el ancho */
+    height: 100%;
+    /* alto del triángulo */
+    background: rgb(115, 156, 243);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+    z-index: 0;
+    /* atrás del contenido */
+}
+
+
+.cont {
+    position: relative;
+    z-index: 1;
+    /* encima del triángulo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+@keyframes cardAnimation {
+    60% {
+        background-size: cover;
+        background-position-x: 60%;
+        background-position-y: 60%;
+    }
+}
+
+@keyframes cardGradient {
+    0% {
+        background-position: 0% 10%;
+    }
+
+    50% {
+        background-position: 100% 91%;
+    }
+
+    100% {
+        background-position: 0% 10%;
+    }
+}
+
+
+
+.card {
+    color: white;
+    background-color: rgb(42, 41, 45);
+    height: 100%;
+    width: 100%;
+    min-width: 311px;
+    position: absolute;
+    box-sizing: border-box;
+    display: grid;
+    margin-bottom: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    box-shadow: 0 0px 8px rgb(0 0 0 / 12%),
+        0 2px 16px rgb(0 0 0 / 12%),
+        0 4px 20px rgb(0 0 0 / 12%),
+        0 12px 28px rgb(0 0 0 / 12%);
+    color: rgb(255, 255, 255);
+
+    /* 🔺 recorte en triángulo */
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+    overflow: hidden;
+}
+
+.card.digital {
+    background-size: cover;
+    animation-name: cardAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transform: translateZ(0);
+    color: black;
+}
+
+.card.digital.four {
+    background-image: url("https://assets.codepen.io/14762/my-pink.jpg");
+}
+
+.letra {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.wave {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    overflow: hidden;
+}
+
+.wave svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
