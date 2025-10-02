@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card con forma de onda</title>
+  <style>
+    @keyframes cardAnimation {
+      60% {
+        background-size: cover;
+        background-position-x: 60%;
+        background-position-y: 60%;
+      }
+    }
+
+    @keyframes cardGradient {
+      0% {
+        background-position: 0% 10%;
+      }
+      50% {
+        background-position: 100% 91%;
+      }
+      100% {
+        background-position: 0% 10%;
+      }
+    }
+
+    /* === CARD BASE === */
+    .card {
+      color: white;
+      background-color: rgb(42, 41, 45);
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      display: grid;
+      place-items: center;
+      margin: 40px auto;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      box-shadow: 0 0px 8px rgb(0 0 0 / 12%),
+                  0 2px 16px rgb(0 0 0 / 12%),
+                  0 4px 20px rgb(0 0 0 / 12%),
+                  0 12px 28px rgb(0 0 0 / 12%);
+      overflow: hidden;
+
+      /* 🔺 Forma con onda */
+      clip-path: url(#waveClip);
+    }
+
+    /* === VARIANTE DIGITAL === */
+    .card.digital {
+      background-size: cover;
+      animation: cardAnimation 10s infinite;
+      transform: translateZ(0);
+      color: black;
+    }
+
+    .card.digital.four {
+      background-image: url("https://assets.codepen.io/14762/my-pink.jpg");
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SVG oculto que define la onda -->
+  <svg width="0" height="0">
+    <defs>
+      <clipPath id="waveClip" clipPathUnits="objectBoundingBox">
+        <!-- Onda normalizada (0 a 1 en lugar de 0 a 500) -->
+        <path d="M0,0.6 Q0.3,0.2 0.6,0.4 T1,0.2 L1,1 L0,1 Z" />
+      </clipPath>
+    </defs>
+  </svg>
+
+  <!-- CARD -->
+  <div class="card digital four">
+    <h2>Hola 👋</h2>
+    <p>Esta card tiene forma de onda</p>
+  </div>
+
+</body>
+</html>

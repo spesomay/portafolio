@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Documeant</title>
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <div class="cv">
+            <svg width="0" height="0">
+                <defs>
+                    <clipPath id="waveClip" clipPathUnits="objectBoundingBox">
+                        <!-- Onda normalizada (0 a 1 en lugar de 0 a 500) -->
+                        <path d="M0,0.6 Q0.3,0.2 0.6,0.4 T1,0.2 L1,1 L0,1 Z" />
+                    </clipPath>
+                </defs>
+            </svg>
+            <div class="card digital four">
+            
+            </div>
+            <div class="cont">
+                <div class="izquierda">
+                    <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <pattern id="imgPattern" patternUnits="userSpaceOnUse" width="500" height="500">
+                                <image href="img/yop.jpg" x="0" y="0" width="500" height="500" />
+                            </pattern>
+                        </defs>
+                        <path id="blob" class="blob" fill="url(#imgPattern)"
+                            d="M421.5,303Q380,356,332,390.5Q284,425,229,417Q174,409,123,374.5Q72,340,63.5,271.5Q55,203,99,147Q143,91,212.5,72.5Q282,54,344.5,95Q407,136,432.5,193Q458,250,421.5,303Z" />
+                    </svg>
+                </div>
+
+                <div class="derecha">
+                    <div class="informacion">
+                        <div class="profesion1 letra">Hola soy Maylen</div>
+                        <div class="profesion2 letra">Front end Developer</div>
+                        <div class="profesion letra">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                            accusantium quia placeat nesciunt vel exercitationem rem dignissimos
+                            ipsum sed quae?
+                        </div>
+                        <div class="profesion">
+                            <button class="fa-brands fa-github size"></button>
+                            <button class="fa-brands fa-linkedin size"></button>
+                            <button class="fa-solid fa-envelope size"></button>
+                        </div>
+                        <div class="profesion">
+                            <button>Download CV</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sobreMi">
+            <div class="izquierda">
+                <div class="informacion">
+                    <div class="profesion2">Sobre Mi</div>
+                    <div class="profesion3">Front end Developer</div>
+                    <div class="profesion">Me egresé de la Escuela Técnica N°3 con especialidad en Programación, lo que
+                        me brindó una base sólida en desarrollo de software, lógica de programación y resolución de
+                        problemas. Desde entonces, me motiva combinar creatividad y tecnología para ofrecer soluciones
+                        digitales claras y fáciles de usar.</div>
+
+                </div>
+            </div>
+            <div class="derecha">
+                <div class="foto">
+                    <img src="img/yop.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const blob = document.getElementById("blob");
+
+        const shapes = [
+            "M421.5,303Q380,356,332,390.5Q284,425,229,417Q174,409,123,374.5Q72,340,63.5,271.5Q55,203,99,147Q143,91,212.5,72.5Q282,54,344.5,95Q407,136,432.5,193Q458,250,421.5,303Z",
+            "M432,300Q390,360,330,395Q270,430,215,410Q160,390,115,350Q70,310,65,250Q60,190,110,140Q160,90,230,70Q300,50,350,95Q400,140,440,195Q480,250,432,300Z",
+            "M420,320Q380,380,315,410Q250,440,190,410Q130,380,95,320Q60,260,80,190Q100,120,160,90Q220,60,290,70Q360,80,400,140Q440,200,430,260Q420,320,420,320Z"
+        ];
+
+        let i = 0;
+        setInterval(() => {
+            i = (i + 1) % shapes.length;
+            blob.setAttribute("d", shapes[i]);
+        }, 3000);
+    </script>
+</body>
+
+</html>
